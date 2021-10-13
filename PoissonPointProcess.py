@@ -1,12 +1,11 @@
-#########################################################
-#### Poisson Point Process Object                    ####
-#### by Stephan Bussmann, University of Osnabrueck   ####
-#########################################################
+################################################
+#### Poisson Point Process Object           ####
+#### by Stephan Bussmann                    ####
+################################################
 
 
 import numpy as np
 from scipy.integrate import dblquad
-import matplotlib.pyplot as plt
 
 class PoissonPointProcess:
 
