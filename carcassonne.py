@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 class Map:
 
     # a Carcassonnemap is a n times m matrix
-
+    # RDS is a numpy.random.RandomState object
     def __init__(self, map_height, map_width, cell_side_length, outradius, inradius, RDS):
 
         self.RDS = RDS
