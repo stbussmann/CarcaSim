@@ -12,8 +12,8 @@ class Map: Expects (in that order) height and width of the map to be created, si
 
 class BooleanModel: Expects a set of nodes (that is a list of lists each containing a x and y coordinate) and a Map object. The user should ensure that the coordinates of the nodes are contained within the limits of the given map. A BooleanModel object admits the following functions:
 
-volume() returns the covered volume of the Boolean model.
+   - volume() returns the covered volume of the Boolean model.
 
-isolated_nodes() returns the number of isolated nodes in the Boolean model.
+   - isolated_nodes() returns the number of isolated nodes in the Boolean model.
 
-draw() visualizes the model using Matplotlib.
+   - draw() visualizes the model using Matplotlib.
