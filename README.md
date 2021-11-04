@@ -4,8 +4,6 @@ Provides objects necessary to reproduce the results presented in the addendum to
 
 # carcassonne.py
 
-Requires: numpy (https://numpy.org/)
-          shapely (https://github.com/Toblerity/Shapely)
-          matplotlib (https://matplotlib.org/)
+Required Packages: NumPy (https://numpy.org/), Shapely (https://github.com/Toblerity/Shapely) and Matplotlib (https://matplotlib.org/).
 
 Contains classes for our random map generator.
