@@ -17,3 +17,11 @@ class BooleanModel: Expects a set of nodes (that is a list of lists each contain
    - isolated_nodes() returns the number of isolated nodes in the Boolean model.
 
    - draw() visualizes the model using Matplotlib.
+
+# poissonpointprocess.py
+
+Required Packages: NumPy (https://numpy.org/) and SciPy (https://scipy.org/).
+
+Contains the class needed to simulate a Poisson point process as laid out in the thesis.
+
+class PoissonPointProcess: Expects (in that order) height and width of the observation window, the intensity function (given in a form that can be handled by scipy.integrate.dblquad), number of cells on the x-axis and number of cells on the y-axis. Has the attribute SET, which gives a list of the created coordinates.
